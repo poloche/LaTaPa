@@ -7,8 +7,9 @@ export const Services = (props) => {
         <div className="section-title">
           <h2>Our Services</h2>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed
-            dapibus leonec.
+            Global companies are finding it increasingly challenging to access highly skilled
+            tech talent amidst growing competition.
+            Hiring locally can be expensive, making it harder to build the right teams quickly and cost-effectively.
           </p>
         </div>
         <div className="row">
