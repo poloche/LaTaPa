@@ -10,7 +10,7 @@ export const Team = (props) => {
             some description
           </p>
         </div>
-        <div id="row">
+        <div id="row" class="col-md-10 col-md-offset-5">
           {props.data
             ? props.data.map((d, i) => (
                 <div key={`${d.name}-${i}`} className="col-md-3 col-sm-6 team">
