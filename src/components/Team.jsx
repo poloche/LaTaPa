@@ -10,10 +10,10 @@ export const Team = (props) => {
             some description
           </p>
         </div>
-        <div id="row" class="col-md-10 col-md-offset-5">
+        <div id="row" class="row">
           {props.data
             ? props.data.map((d, i) => (
-                <div key={`${d.name}-${i}`} className="col-md-3 col-sm-6 team">
+                <div key={`${d.name}-${i}`} className="col-md-6 col-md-offset-3 team">
                   <div className="thumbnail">
                     {" "}
                     <img src={d.img} alt="..." className="team-img" />
