@@ -66,22 +66,22 @@
   ],
   "Services": [
     {
-      "icon": "fa fa-wordpress",
+      "icon": "img/services/Connect.jpg",
       "name": "Connect",
       "text": "We connect companies with top-tier Latin American tech professionals."
     },
     {
-      "icon": "fa fa-cart-arrow-down",
+      "icon": "img/services/Collaboration.jpg",
       "name": "Collaboration",
       "text": "Our nearshore model is cost-effective and provides a smooth, real-time collaboration"
     },
     {
-      "icon": "fa fa-cloud-download",
+      "icon": "img/services/About.jpg",
       "name": "Top tier candidates",
       "text": "Our highly specialized professional database offers a comprehensive range of candidates across all software roles. We provide access to top-tier talent in the tech industry."
     },
     {
-      "icon": "fa fa-language",
+      "icon": "img/services/Expertise.jpg",
       "name": "Expertise",
       "text": "Our expertise ensures that we can meet the diverse needs of businesses seeking skilled professionals for their software/web3/gaming-related positions."
     }
