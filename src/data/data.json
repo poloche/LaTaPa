@@ -1,10 +1,10 @@
 {
   "Header": {
     "title": "Latam Talent Partners",
-    "paragraph": "Welcome to LATAM TALENT PARTNERS. Connecting Top Lating American Tech Talent to Global Companies."
+    "paragraph": "Welcome to LATAM TALENT PARTNERS. Connecting Top Latin American Tech Talent to Global Companies."
   },
   "About": {
-    "paragraph": "We are a recruitment Company with a proven track record of success. Our ability to close top talent, develop tailored hiring strategies, deliver compelling candidate presentations, and secure high-value placements is unmatched in the industry.\nOur expertise ensures exceptional results in every aspect of our recruitment efforts.",
+    "paragraph": "We are a Recruitment Company with a proven track record of success. Our ability to close top talent, develop tailored hiring strategies, deliver compelling candidate presentations, and secure high-value placements is unmatched in the industry.\nOur expertise ensures exceptional results in every aspect of our recruitment efforts.",
     "Why": [
       "Our expertise in strategic recruitment.",
       "Talent management",
@@ -66,22 +66,22 @@
   ],
   "Services": [
     {
-      "icon": "img/services/Connect.jpg",
+      "icon": "img/services/Connect.png",
       "name": "Connect",
       "text": "We connect companies with top-tier Latin American tech professionals."
     },
     {
-      "icon": "img/services/Collaboration.jpg",
+      "icon": "img/services/Collaborative.png",
       "name": "Collaboration",
       "text": "Our nearshore model is cost-effective and provides a smooth, real-time collaboration"
     },
     {
-      "icon": "img/services/About.jpg",
+      "icon": "img/services/candidates.png",
       "name": "Top tier candidates",
       "text": "Our highly specialized professional database offers a comprehensive range of candidates across all software roles. We provide access to top-tier talent in the tech industry."
     },
     {
-      "icon": "img/services/Expertise.jpg",
+      "icon": "img/services/Expertise.png",
       "name": "Expertise",
       "text": "Our expertise ensures that we can meet the diverse needs of businesses seeking skilled professionals for their software/web3/gaming-related positions."
     }
@@ -96,6 +96,11 @@
       "img": "img/testimonials/02.jpg",
       "text": "\"We always look for experienced developer, but was frustrating get involved in so many interviews, Latam Partners provides probed experienced developers.\"",
       "name": "Johnathan Doe"
+    },
+    {
+      "img": "img/testimonials/03.jpg",
+      "text": "\"Fast and efficient time to get a very good talent with proved expertise.\"",
+      "name": "Marco Di'caprio"
     }
   ],
   "Team": [
@@ -109,9 +114,8 @@
     "address": "260 Madison Ave, New York, NY 10016, US",
     "phone": "+1 123 456 1234",
     "email": "info@latamtalentpartners.com",
-    "facebook": "fb.com",
-    "twitter": "twitter.com",
-    "youtube": "youtube.com"
+    "twitter": "https://x.com/home",
+    "linkedin": "https://www.linkedin.com/company/latam-talent-partners"
   },
   "Features": [
     {

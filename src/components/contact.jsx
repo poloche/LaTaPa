@@ -40,7 +40,7 @@ export const Contact = (props) => {
       <div id="contact">
         <div className="container">
           <div className="col-md-8">
-
+            <img src="img/maps.png" className="img-responsive" alt="" />
           </div>
           <div className="col-md-3 col-md-offset-1 contact-info">
             <div className="contact-item">
@@ -74,18 +74,13 @@ export const Contact = (props) => {
               <div className="social">
                 <ul>
                   <li>
-                    <a href={props.data ? props.data.facebook : "/"}>
-                      <i className="fa fa-facebook"></i>
-                    </a>
-                  </li>
-                  <li>
                     <a href={props.data ? props.data.twitter : "/"}>
                       <i className="fa fa-twitter"></i>
                     </a>
                   </li>
                   <li>
-                    <a href={props.data ? props.data.youtube : "/"}>
-                      <i className="fa fa-youtube"></i>
+                    <a href={props.data ? props.data.linkedin : "/"}>
+                      <i className="fa fa-linkedin"></i>
                     </a>
                   </li>
                 </ul>
