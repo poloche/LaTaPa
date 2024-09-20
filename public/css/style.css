@@ -320,6 +320,7 @@ header .intro-text {
 }
 #services .service-desc {
   margin: 10px 10px 20px;
+  margin-bottom: 40px;
 }
 #services h2 {
   color: #fff;
@@ -345,16 +346,14 @@ header .intro-text {
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.05);
 }
 #services h3 {
-  font-weight: 500;
   padding: 5px 0;
   color: #fff;
+  font-weight: bold;
 }
 #services p {
   color: rgba(255, 255, 255, 0.75);
 }
-#services .service-desc {
-  margin-bottom: 40px;
-}
+
 /* Portfolio Section */
 #portfolio {
   padding: 100px 0;
@@ -512,6 +511,11 @@ header .intro-text {
   color: #1f386e;
   background: #fff;
 }
+#contact .contact-map{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 label {
   font-size: 12px;
   font-weight: 400;
@@ -608,8 +612,4 @@ label {
   #about img {
     margin: 50px 0;
   }
-}
-
-#services h3{
-    font-weight: bold;
 }

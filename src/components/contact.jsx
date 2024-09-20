@@ -38,9 +38,9 @@ export const Contact = (props) => {
   return (
     <div>
       <div id="contact">
-        <div className="container">
-          <div className="col-md-8">
-            <img src="img/maps.png" className="img-responsive" alt="" />
+        <div className="container contact-map">
+          <div className="col-md-8 " >
+            <img src="img/maps.png" alt="address" />
           </div>
           <div className="col-md-3 col-md-offset-1 contact-info">
             <div className="contact-item">
@@ -49,6 +49,7 @@ export const Contact = (props) => {
                 <span>
                   <i className="fa fa-map-marker"></i> Address
                 </span>
+                {console.log(props.data)}
                 {props.data ? props.data.address : "loading"}
               </p>
             </div>
@@ -69,22 +70,22 @@ export const Contact = (props) => {
               </p>
             </div>
           </div>
-          <div className="col-md-12">
-            <div className="row">
-              <div className="social">
-                <ul>
-                  <li>
-                    <a href={props.data ? props.data.twitter : "/"}>
-                      <i className="fa fa-twitter"></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a href={props.data ? props.data.linkedin : "/"}>
-                      <i className="fa fa-linkedin"></i>
-                    </a>
-                  </li>
-                </ul>
-              </div>
+        </div>
+        <div className="container">
+          <div className="row">
+            <div className="social">
+              <ul>
+                <li>
+                  <a href={props.data ? props.data.twitter : "/"}>
+                    <i className="fa fa-twitter"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href={props.data ? props.data.linkedin : "/"}>
+                    <i className="fa fa-linkedin"></i>
+                  </a>
+                </li>
+              </ul>
             </div>
           </div>
         </div>
