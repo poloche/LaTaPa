@@ -88,9 +88,9 @@ hr {
   text-transform: uppercase;
 }
 #menu a.navbar-brand img{
-  margin-top: -50px;
-  width: 250px;
-  height: 100px;
+  margin-top: -20px;
+  width: 210px;
+  height: 70px;
 }
 #menu.navbar-default .navbar-nav > li > a {
   font-family: "Lato", sans-serif;
